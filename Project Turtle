@@ -1,1 +1,16 @@
+#create circle turtle
 
+#import turtle
+import turtle
+
+wn = turtle.Screen()
+jony = turtle.Turtle()
+jony.shape("turtle")
+jony.penup()
+
+for size in range(10):
+    jony.forward(50)
+    jony.stamp()
+    jony.forward(-50)
+    jony.right(36)
+win.exitonclick()
