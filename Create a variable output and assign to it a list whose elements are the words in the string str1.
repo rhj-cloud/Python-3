@@ -1,0 +1,5 @@
+#Create a variable output and assign to it a list whose elements are the words in the string str1.
+
+str1 = "OH THE PLACES YOU'LL GO"
+output = list(str1.split())
+print(output)
