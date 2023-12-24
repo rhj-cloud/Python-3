@@ -1,0 +1,7 @@
+paragraph = "The quick brown fox jumps over the lazy dog."
+
+Total_Vowel = 0
+for vowel in paragraph:
+    if vowel in ['a', 'e', 'i', 'o', 'u']:
+        Total_Vowel += 1
+print(Total_Vowel)
