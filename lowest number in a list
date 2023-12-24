@@ -1,0 +1,7 @@
+
+nums = [9, 3, 8, 11, 5, 29, 2]
+lowest_num = nums[0]
+for n in nums:
+    if n < lowest_num:
+        lowest_num = n
+print(lowest_num)
