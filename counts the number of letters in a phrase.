@@ -1,0 +1,8 @@
+sentence = "Bangladesh is our motherland."
+TotalAlphabet = 0
+
+for char in sentence:
+    if char != " ":
+        TotalAlphabet += 1
+
+print(TotalAlphabet)
